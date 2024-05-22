@@ -1,0 +1,117 @@
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.nav-menu li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    position: relative; 
+    transition: color 0.3s ease, font-weight 0.3s ease; 
+}
+
+.nav-menu li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px; 
+    width: 0; 
+    height: 2px; 
+    background-color: purple;
+    transition: width 0.3s ease; 
+}
+
+.nav-menu li a:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover::after {
+    width: 100%;
+}
+  
+  
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: purple;
+    padding: 20px;
+}
+  
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+  
+  /* Social Media Icons */
+.icons-nav {
+    position: fixed;
+    top: 60%;
+    margin-left: 50px;
+    transform: translateY(-50%);
+}
+  
+.icons-nav a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: purple;
+    font-size: 25px;
+}
+
+
+  
+/* Responsive Styles */
+/* For mobile phones */
+@media (min-width: 320px) and (max-width: 720px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      background: white;
+      padding-top: 100px;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .menu-icon {
+      display: block;
+      margin-left: 10%;
+    }
+  
+    .header {
+      justify-content: space-between;
+      width: 100%;
+    }
+}
+

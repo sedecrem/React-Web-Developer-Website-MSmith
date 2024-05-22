@@ -1,0 +1,79 @@
+.about{
+    /* background: linear-gradient(91.1deg, purple -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%); */
+    background: linear-gradient(90.5deg, rgb(182, 76, 233) 1.6%, rgb(250, 156, 245) 98.2%);
+    margin-top: 5%; 
+}
+
+.about h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Trocchi", serif;
+}
+
+.about h2{
+    color: white;
+    margin-left: 10%;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about p{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: 400;
+
+}
+
+.about a{
+    border: solid;
+    border-color: white;
+    background-color: white;
+    color: purple;
+    padding: 8px;
+    margin-left: 10%;
+    border-radius: 4px;
+    width: 150px;
+    font-weight: 600;
+}
+
+.about a:hover{
+    border: solid;
+    background-color: purple;
+    color: white;
+}
+
+.img {
+    /* height: 240px;
+    width: 170px; */
+    height: 410px;
+    width: 300px;
+    float: right;
+    /* margin-right: 13%;
+    margin-top: -26%; */
+    margin-right: 17%;
+    margin-top: 4%;
+    border-radius: 2%;
+}
+
+.circle {
+    position: absolute;
+    top: 120%;
+    left: 63%;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    /* background: rgba(112, 35, 170, 0.668) 0%; */
+    z-index: 0; 
+}
+
+
+
+
+
+

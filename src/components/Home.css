@@ -1,0 +1,204 @@
+.home-header h1{
+    animation: animated-text 2s steps(29,end)  1 normal both,
+    animated-cursor 700ms steps(25,end) infinite;
+    border-right: solid 2px black;
+    white-space: nowrap;
+    overflow: hidden;    
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 36%;
+    margin-top: 100px;
+    /* to{width: 17.2%} */
+}
+  
+  /* text animation */
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 27%}
+}
+  /* cursor animations */
+@keyframes animated-cursor{
+    from{border-right-color: black;}
+    to{border-right-color: transparent;}
+}
+
+
+/* Roles */
+.text-container {
+    position: relative;
+    width: 300px;
+    height: 150px; 
+    overflow: hidden;
+    margin-left: 41%;
+  }
+  
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    font-size: 30px;
+    font-weight: 500;
+    color: purple;
+    text-align: center;
+}
+
+.t1{
+    animation: ani1 7s infinite;
+}
+
+.t2{
+    animation: ani2 7s infinite;
+}
+
+.t3{
+    animation: ani3 7s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani2{
+    30%{
+        opacity: 0;
+    }
+    45%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani3{
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/* Flower Animation Design */
+@keyframes showPetals {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  .flower {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+    margin-left: 39%;
+    margin-top: -4%;
+  }
+  
+  .small-petal {
+    animation: 1000ms showPetals linear forwards;
+    background-image: linear-gradient(to left, rgba(252, 155, 255, 0.8) 0%, rgba(233, 51, 215, 0.6) 100%);
+    opacity: 0;
+  }
+  
+  .small-petal1 {
+    animation-delay: 200ms;
+    border-radius: 100% 0; 
+    grid-column: 4/6;
+    grid-row: 2/4;
+  }
+  
+  .small-petal2 {
+    animation-delay: 400ms;
+    border-radius: 100% 0;
+    grid-column: 4/6;
+    grid-row: 3/5;
+    transform: rotate(45deg) translate(0.8rem, -0.8rem);
+  }
+  
+  .small-petal3 {
+    animation-delay: 600ms;
+    border-radius: 0 100%;
+    grid-column: 4/6;
+    grid-row: 4/6;
+  }
+  
+  .small-petal4 {
+    animation-delay: 800ms;
+    border-radius: 100% 0;
+    grid-column: 3/5;
+    grid-row: 3/5;
+    transform: rotate(135deg) translate(3.2rem, -3.2rem);
+  }
+  
+  .small-petal5 {
+    animation-delay: 1000ms;
+    border-radius: 100% 0;
+    grid-column: 2/4;
+    grid-row: 4/6;
+  }
+  
+  .small-petal6 {
+    animation-delay: 1200ms;
+    border-radius: 100% 0;
+    grid-column: 2/4;
+    grid-row: 3/5;
+    transform: rotate(45deg) translate(-0.6rem, 0.6rem);
+  }
+  
+  .small-petal7 {
+    animation-delay: 1400ms;
+    border-radius: 0 100%;
+    grid-column: 2/4;
+    grid-row: 2/4;
+  }
+  
+  .small-petal8 {
+    animation-delay: 1600ms;
+    border-radius: 100% 0;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    transform: rotate(135deg) translate(1.7rem, -1.7rem);
+  }
+
+/* Sroll down arrow */
+a { 
+    color: black; 
+    text-decoration: none; 
+    }
+  
+  .arrow {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 48.5%;
+    cursor: pointer;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
