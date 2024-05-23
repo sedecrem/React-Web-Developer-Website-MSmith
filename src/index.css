@@ -19,14 +19,16 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@layer base { 
-    body {
-        @apply font-[Raleway];
+
+@layer base {
+    html, body {
+        @apply w-full h-full min-h-screen font-[Raleway];
     }
+
     li {
-        @apply px-4;
-        @apply cursor-pointer
+        @apply px-4 cursor-pointer;
     }
 }
 
@@ -36,16 +38,17 @@ code {
     background-position: center;
     height: 250px;
 }
+
 .content-div:hover {
     background-image: linear-gradient(
         to right,
         rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)   
-    )!important;
+        hsla(242, 74%, 61%, 0.8)
+    ) !important;
 }
 
 @media (max-width: 320px) {
-    body{
-        width: 190%;
+    body {
+        @apply w-full;
     }
 }
