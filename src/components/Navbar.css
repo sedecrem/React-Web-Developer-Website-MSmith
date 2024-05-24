@@ -1,4 +1,8 @@
 /* navbar */
+.no-scroll {
+    overflow: hidden;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -53,7 +57,7 @@
     top: 20px;
     right: 40px;
     font-size: 24px;
-    color: black;
+    color: white;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -102,7 +106,7 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
-      width: 30%;
+      width: 80%;
       height: 100vh;
       position: fixed;
       top: 0;
@@ -111,11 +115,20 @@
       opacity: 1;
       transition: all 0.5s ease;
       background: purple;
-      padding-top: 100px;
+      padding-top: 140px;
     }
 
     .nav-menu.active {
       left: 0;
+    }
+
+    .nav-menu li {
+        margin-bottom: 10px; 
+    }
+
+    .nav-menu li a{
+        color: white;
+        font-size: 20px;
     }
 
     .navbar {
@@ -124,7 +137,7 @@
 
     .menu-icon {
       display: block;
-      margin-left: 60%;
+      margin-left: 90%;
       font-size: 20px;
     }
 
@@ -132,5 +145,21 @@
       justify-content: space-between;
       font-size: 20px;
       margin-left: 7px;
+    }
+
+    .nav-menu .mobile-icons-nav {
+        display: flex;
+        margin-top: 90px;
+        margin-left: 85px;
+    }
+
+    .nav-menu .mobile-icons-nav a{
+        padding: 10px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .icons-nav {
+        display: none;
     }
 }

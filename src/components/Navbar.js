@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaTwitter, FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import './Navbar.css';
@@ -9,6 +9,14 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  }, [isOpen]);
 
   return (
     <div>
@@ -34,9 +42,17 @@ const Navbar = () => {
           <li>
             <Link to='contact' onClick={toggleMenu}>Contact</Link>
           </li>
+
+          {/* Social Media Icons inside the nav-menu for mobile devices */}
+          <div className='mobile-icons-nav'>
+            <a href="https://linkedin.com/in/mercedes-smith-"><FaLinkedin /></a>
+            <a href="https://github.com/sedecrem"><FaGithub /></a>
+            <a href="https://twitter.com/mercedesjs_"><FaTwitter /></a>
+          </div>
         </ul>
       </nav>
 
+      {/* Social Media Icons for web version */}
       <div className='icons-nav'>
         <a href="https://linkedin.com/in/mercedes-smith-"><FaLinkedin /></a>
         <a href="https://github.com/sedecrem"><FaGithub /></a>
