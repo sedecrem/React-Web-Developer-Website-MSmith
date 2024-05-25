@@ -44,6 +44,7 @@ const Navbar = () => {
           </li>
 
           {/* Social Media Icons inside the nav-menu for mobile devices */}
+          <h1 className='say-hello'>SAY HELLO</h1>
           <div className='mobile-icons-nav'>
             <a href="https://linkedin.com/in/mercedes-smith-"><FaLinkedin /></a>
             <a href="https://github.com/sedecrem"><FaGithub /></a>

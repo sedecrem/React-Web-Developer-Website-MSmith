@@ -10,6 +10,8 @@ const About = () => {
 
             <h1>About Me</h1>
 
+            <img src={me} alt="An amazing picture of me :)" className='img-m'/>
+
             <br></br>
             <br></br>
 
@@ -22,8 +24,8 @@ const About = () => {
                 to develop and improve these skills in the professional sphere.
             </p>
 
-            <p> I am now, almost a year after graduating, hoping to develop more projects to 
-                showcase my talents and land more opportunities. I am also developing an interst in work on
+            <p className='p2'> I am now, almost a year after graduating, hoping to develop more projects to 
+                showcase my talents and land more opportunities. I am also developing an interest in work on
                 backend systems with my working knowledge of Java, Python, SQL, PHP etc.
             </p>
 
@@ -32,7 +34,7 @@ const About = () => {
             <a href="mailto:mercedessmith7389@gmail.com"> Contact Me</a>
 
          
-            <div class="circle"><img src={me} alt="An amazing picture of me :)" className='img'/></div>
+            <img src={me} alt="An amazing picture of me :)" className='img'/>
           
 
             <br></br>

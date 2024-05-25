@@ -41,3 +41,22 @@
 .icons span{
     font-weight: bold;
 }
+
+/* Responsive Styles */
+/* For mobile phones */
+@media (min-width: 320px) and (max-width: 720px) {
+    .skills h1{
+        font-size: 30px;
+    }
+
+    .skills h2{
+        font-size: 20px;
+    }
+
+    .skills p{
+        font-size: 15px;
+        width: 300px;
+        margin-left: 33px;
+    }
+
+}

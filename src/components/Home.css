@@ -9,7 +9,6 @@
     font-weight: bold;
     margin-left: 36%;
     margin-top: 100px;
-    /* to{width: 17.2%} */
 }
   
   /* text animation */
@@ -51,10 +50,12 @@
 
 .t2{
     animation: ani2 7s infinite;
+    margin-left: 27px;
 }
 
 .t3{
     animation: ani3 7s infinite;
+    margin-left: 27px;
 }
 
 @keyframes ani1{
@@ -202,3 +203,45 @@ a {
       transform: translateY(-15px);
     }
   }
+
+
+/* Responsive Styles */
+/* For mobile phones */
+@media (min-width: 320px) and (max-width: 720px) {
+  .home-header h1{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 63px;
+  }
+
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 67%}
+  }
+
+  .text{
+    font-size: 20px;
+  }
+
+  .text-container{
+    margin-left: 93px;
+  }
+
+  .t2{
+    margin-left: 27px;
+  }
+
+  .t3{
+    margin-left: 24px;
+  }
+
+  .flower{
+    margin-left: 10%;
+    margin-top: -22%;
+  }
+
+  .arrow{
+    display: none;
+  }
+
+}
