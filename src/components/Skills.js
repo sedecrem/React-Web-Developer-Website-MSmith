@@ -18,6 +18,8 @@ const Skills = () => {
 
             <br></br>
 
+            <div className='ticker-wrapper'>
+            <div className='ticker'>
             <div className='icons'>
                 <div className='icons-row'>
                     <div>
@@ -54,6 +56,8 @@ const Skills = () => {
                     </div>
                 </div>
 
+                <br></br>
+
                 <div className='icons-row'>
                     <div>
                         <FaNodeJs className='icon' />
@@ -88,7 +92,8 @@ const Skills = () => {
                         <span>Javascript</span>
                     </div>
                 </div>
-
+            </div>
+            </div>
             </div>
 
 
