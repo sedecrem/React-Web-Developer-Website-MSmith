@@ -1,18 +1,18 @@
-.skills h1{
+.skills h1 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     font-family: "Trocchi", serif;
 }
 
-.skills h2{
+.skills h2 {
     color: purple;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
 }
 
-.skills p{
+.skills p {
     color: #000;
     padding: 10px;
     font-weight: 500;
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-right: 50px; /* Add margin between icon rows */
+    margin-right: 50px;
 }
 
 .icons-row .icon {
@@ -42,6 +42,33 @@
 .icons span {
     font-weight: bold;
 }
+
+
+/* Icons for mobile version */
+.mobile-icons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-icons-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.mobile-icons-row .mobile-icon {
+    color: purple;
+    text-align: center;
+    font-size: 80px;
+    margin: 20px;
+}
+
+.mobile-icons span{
+    font-weight: bold;
+}
+
 
 /* Responsive Styles */
 /* For mobile phones */
@@ -60,35 +87,41 @@
         margin-left: 33px;
     }
 
-    .ticker-wrapper {
-        overflow: hidden;
-        white-space: nowrap;
-        width: 100%;
-        height: 215px;
+    .icons .icons-row{
+        display: none;
     }
 
-    .ticker {
+    .mobile-icons {
+        margin-top: -30px;
+        margin-bottom: 30px;
         display: flex;
-        animation: ticker 15s linear infinite;
+        flex-direction: row;
+        overflow: hidden; 
     }
 
-    .icons-row{
-        margin-top: -15px;
+    .mobile-icons-wrapper {
+        margin-top: -20px;
+        display: flex;
+        white-space: nowrap; 
+        animation: ticker 11s linear infinite; 
     }
 
-    .icons-row .icon {
-        font-size: 40px; 
-        margin-left: 27px;
+    .mobile-icons-row {
+        display: inline-flex; 
+    }
+
+    .mobile-icons-row .mobile-icon {
+        font-size: 50px; 
+        margin-right: 13px; 
     }
 
     @keyframes ticker {
         0% {
-            transform: translate3d(100%, 0, 0);
+            transform: translateX(0%);
         }
         100% {
-            transform: translate3d(-100%, 0, 0);
+            transform: translateX(-50%);
         }
     }
 }
-
 
