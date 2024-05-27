@@ -207,7 +207,7 @@ a {
 
 /* Responsive Styles */
 /* For mobile phones */
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .home-header h1{
     font-size: 30px;
     margin-top: 40px;
@@ -245,3 +245,17 @@ a {
   }
 
 }
+
+
+/* @media (min-width: 768px) and (max-width: 768px) and (orientation: portrait) {
+    .home-header{
+      font-size: 20px;
+    }
+} */
+
+/* For ipad landscape */
+/* @media (min-width: 1024px) and (max-width: 1366px) {
+    .home-header h1{
+      font-size: 40px;
+    }
+} */
