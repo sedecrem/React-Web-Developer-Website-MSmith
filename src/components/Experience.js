@@ -59,15 +59,15 @@ const Experience = () =>{
 
                                 <br></br>
                                 <p>• Develop robust web applications using JHipster and utilizing the full-stack capabilities of Spring Boot on the backend and Angular on the frontend. </p>
-                                <p>• Design and implement architecture for projects to illustrate the flow of data between different components.</p>
-                                <p>• Create detailed developer documentation, providing insights into project setup and deployment procedures</p>
+                                <p className='mobile'>• Design and implement architecture for projects to illustrate the flow of data between different components.</p>
+                                <p className='mobile'>• Create detailed developer documentation, providing insights into project setup and deployment procedures</p>
                         </div>
                     </div>
 
                     <div className='timeline-item'>
 
                         <div class="timeline-img"></div>
-                        <div className='timeline-content js--fadeInRight'>
+                        <div className='timeline-content js--fadeInRight mobile-right'>
                             <br></br>
                             <h2>Application Engineer Intern</h2>
                             <h3>eGov Jamaica</h3>
@@ -83,15 +83,15 @@ const Experience = () =>{
 
                         <div class="timeline-img"></div>
                         <div className='timeline-content js--fadeInLeft'>
-                            <h2>Web Dev Intern</h2>
+                            <h2 className='third-head'>Web Dev Intern</h2>
                             <h3>Mona GeoInformatics Institute</h3>
                             <div className='date'>June 2022 - Sept 2022</div>
             
                                 <br></br>
-                                <p> • UI/UX design and implementation using Figma .</p>
+                                <p className='mobile'> • UI/UX design and implementation using Figma .</p>
                                 <p> • Implementation of designs using React Framework.</p>
                                 <p> • Development and maintenance of website using WordPress.</p>
-                                <p> • Facilitate learning as a tutor for the International Gaming Technology 2022 Summer Coding Camp.</p>
+                                <p className='mobile'> • Facilitate learning as a tutor for the International Gaming Technology 2022 Summer Coding Camp.</p>
 
                         </div>
                     </div>
