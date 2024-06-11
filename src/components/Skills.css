@@ -103,7 +103,7 @@
         margin-top: -20px;
         display: flex;
         white-space: nowrap; 
-        animation: ticker 11s linear infinite; 
+        animation: ticker 15s linear infinite; 
     }
 
     .mobile-icons-row {
