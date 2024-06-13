@@ -248,13 +248,13 @@
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1536px) {
     .mobile-right{
-        margin-right: -103px;
+        margin-right: -120px;
     }
 
     .js--fadeInLeft{
-        margin-left: 65px;
+        margin-left: 90px;
     }
 }
 
