@@ -248,7 +248,7 @@
 }
 
 
-@media screen and (max-width: 1536px) {
+@media screen and (min-width: 730px) and (max-width: 1536px) {
     .mobile-right{
         margin-right: -120px;
     }
