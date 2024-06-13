@@ -30,7 +30,7 @@ const Home = () => {
 
                 {/* Arrow to scroll to next page */}
                 <div class="arrow bounce">
-                    <a className="faArrowDown">
+                    <a href='/about' className="faArrowDown">
                         <Link to='about'>
                             <FaArrowDown />
                         </Link>

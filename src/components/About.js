@@ -10,7 +10,7 @@ const About = () => {
 
             <h1>About Me</h1>
 
-            <img src={me} alt="An amazing picture of me :)" className='img-m'/>
+            <img src={me} className='img-m'/>
 
             <br></br>
             <br></br>
@@ -34,7 +34,7 @@ const About = () => {
             <a href="mailto:mercedessmith7389@gmail.com"> Contact Me</a>
 
          
-            <img src={me} alt="An amazing picture of me :)" className='img'/>
+            <img src={me} className='img'/>
           
 
             <br></br>
