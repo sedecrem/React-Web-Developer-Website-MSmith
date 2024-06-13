@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './Experience.css'
-import resume from '../assets/resume.pdf'
+// import resume from '../assets/resume.pdf'
 
 const Experience = () =>{
     useEffect(() => {
@@ -100,12 +100,12 @@ const Experience = () =>{
                 </div>
             </section>
 
-            <section className='resume'>
+            {/* <section className='resume'>
                 <h2>Want more in depth details?</h2>
                     <p>Check out my Resume below</p>
                     <br></br>
                     <a href={resume} class="button">Download my Resume</a>
-            </section>
+            </section> */}
 
             <br></br>
             <br></br>
