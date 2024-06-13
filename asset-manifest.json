@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Web-Developer-Website-MSmith/static/css/main.05521920.css",
+    "main.js": "/React-Web-Developer-Website-MSmith/static/js/main.4413635f.js",
+    "static/media/me.png": "/React-Web-Developer-Website-MSmith/static/media/me.7bbe285b9f6349e23799.png",
+    "index.html": "/React-Web-Developer-Website-MSmith/index.html",
+    "main.05521920.css.map": "/React-Web-Developer-Website-MSmith/static/css/main.05521920.css.map",
+    "main.4413635f.js.map": "/React-Web-Developer-Website-MSmith/static/js/main.4413635f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05521920.css",
+    "static/js/main.4413635f.js"
+  ]
+}
