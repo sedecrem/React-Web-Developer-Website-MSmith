@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
-          <a className='back-button' onClick={toggleMenu} href="/home"><FaTimes /></a>
+          <a className='back-button' onClick={toggleMenu} href="#"><FaTimes /></a>
           <li>
             <Link to='about' onClick={toggleMenu}>About</Link>
           </li>
