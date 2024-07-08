@@ -305,6 +305,12 @@
     margin-left: 5%;
 }
 
+.timeline-item-right {
+    width: 80%;
+    margin-bottom: 70px;
+    margin-left: 15%;
+}
+
 .timeline-item:nth-child(even) .timeline-content {
     float: right;
     padding: 40px 30px 10px 30px;

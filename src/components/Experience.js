@@ -64,7 +64,7 @@ const Experience = () =>{
                         </div>
                     </div>
 
-                    <div className='timeline-item'>
+                    <div className='timeline-item-right timeline-item'>
 
                         <div class="timeline-img"></div>
                         <div className='timeline-content js--fadeInRight mobile-right'>
