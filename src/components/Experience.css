@@ -308,7 +308,7 @@
 .timeline-item-right {
     width: 80%;
     margin-bottom: 70px;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .timeline-item:nth-child(even) .timeline-content {
