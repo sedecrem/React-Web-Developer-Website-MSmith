@@ -30,6 +30,7 @@ const About = () => {
             </p>
 
             <br></br>
+            <br></br>
 
             <a href="mailto:mercedessmith7389@gmail.com"> Contact Me</a>
 
