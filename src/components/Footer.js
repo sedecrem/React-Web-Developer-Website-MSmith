@@ -5,7 +5,7 @@ const Footer = () =>{
     return(
         <div className='footer'> 
             <br></br>
-            © 2024 | Designed and Coded with ❤️ by Mercedes Smith
+            © 2024 | Designed and Coded with ❤️ by Mercedes Smith | Built with React 
         </div>
     )
 }
