@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import me from '../assets/me.png';
+import mecircle from '../assets/mecircle.png';
 
 const About = () => {
     return (
@@ -10,10 +11,8 @@ const About = () => {
 
             <h1>About Me</h1>
 
-            <img src={me} alt="An amazing picture of me :)" className='img-m'/> {/* eslint-disable-next-line */}
+            <img src={mecircle} alt="Me :)" className='img-mobile' /> 
 
-            <br></br>
-            <br></br>
 
             <h2>Who is Mercedes?</h2>
 
@@ -35,7 +34,7 @@ const About = () => {
             <a href="mailto:mercedessmith7389@gmail.com"> Contact Me</a>
 
          
-            <img src={me} alt="An amazing picture of me :)" className='img'/> {/* eslint-disable-next-line */}
+            <img src={me} alt="Me :)" className='img'/> 
           
 
             <br></br>
