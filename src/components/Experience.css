@@ -156,6 +156,14 @@
         margin-left: 70px;
     }
 
+    .js--fadeInLeft{
+        margin-left: 13%;
+    }
+
+    .js--fadeInRight{
+        margin-right: 13%;
+    }
+
     .timeline-item:nth-child(odd) .timeline-content::after {
         content: '';
         position: absolute;
@@ -246,7 +254,7 @@
     }
 
     .mobile-right{
-        width: 224px;
+        width: 190px;
     }
 
     .third-head{
